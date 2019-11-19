@@ -11,4 +11,9 @@ public class AddAndSubtractTest {
         assertEquals(AddAndSubtract.addIntegers(2, -3), -1);
     }
     
+    @Test
+    public void testSubtractIntegers() {
+        assertEquals(AddAndSubtract.subtractIntegers(2, 3),-1);
+        assertEquals(AddAndSubtract.subtractIntegers(2, -3), 5);
+    }
 }
